@@ -24,7 +24,6 @@ towards, not a new power level.
 - **One more mod slot** than tier 6.
 - **Armour set bonuses continue.** A full tier 7 set gets the next step of its set bonus.
 - **Item mod effects continue** - bleed and stun chances, magazine size, fuel capacity, the lot.
-
 - **A gold quality band**, one step past legendary purple.
 - **Crafting skills go to 60, 90 and 120** instead of 50, 75 and 100, so the magazines you find
   after capping out have somewhere to go.
