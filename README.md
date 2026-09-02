@@ -30,8 +30,9 @@ towards, not a new power level.
 
 ## Balance
 
-Tier 7 is not a new power level. It is one more step of the size the game was already using, and
-you can check that on any item.
+No *Ancient Warrior Sword* with 1000 damage here. Tier 7 is the natural continuation of tier 6 -
+the same step, only with higher requirements - and it is there to stretch the progression once
+every tier 6 you wanted is already yours.
 
 An AK47 gains +40 durability at tier 7 - the same +40 it gained for every tier before, from 200 at
 tier 1 to 400 at tier 6. A Raider outfit gains +0.6 damage resistance, again the same as every tier
