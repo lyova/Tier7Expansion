@@ -4,7 +4,7 @@
     <DisplayName value="Tier 7 Expansion" />
     <Description value="Adds a seventh quality tier for every weapon, tool, armour piece, clothing piece and item mod: one more mod slot, stats one step past legendary, six Legendary Parts to craft, and a drop five times rarer than tier 6. Crafting caps rise with it." />
     <Author value="Lyova" />
-    <Version value="0.1.0" />
+    <Version value="1.0.0" />
     <Website value="" />
     <SkipWithAntiCheat value="true" />
 </xml>
