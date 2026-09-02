@@ -5,7 +5,7 @@ that has a quality.
 
 Once a crafting skill is capped, the game stops giving you anything: quality 6 is the ceiling and
 every drop from then on is a repeat. Tier 7 is one more step past it - a late-game goal to work
-towards, not a new power level.
+towards, without breaking the balance.
 
 ## What it covers
 
