@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+
+    <!-- Tier 7 colour. QualityInfo.qualityColors is a fixed Color[7] in the game, so this only
+         works because QualityPatches grows the array in a prefix on QualityInfo.Add.
+         Vanilla legendary is A42ACC; gold reads as a step above it. -->
+    <append xpath="/qualityinfo">
+        <quality key="7" color="FFB020"/>
+    </append>
+
+</configs>
