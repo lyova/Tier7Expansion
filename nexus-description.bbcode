@@ -19,20 +19,20 @@ Tier 7 Expansion adds one more step. Everything in the game that has a quality g
 [size=4][b]What tier 7 gives[/b][/size]
 
 [list]
-[*][b]Every tier-scaled number continues[/b] - damage, block damage, durability, damage falloff, physical and elemental resists, stamina, harvest counts, whatever that item scales.
+[*][b]Every stat that grows with quality keeps growing[/b] - damage, block damage, durability, damage falloff, physical and elemental resistance, stamina, harvest counts.
 [*][b]One more mod slot[/b] than tier 6.
 [*][b]Armour set bonuses continue.[/b] A full tier 7 set gets the next step of its set bonus.
 [*][b]Item mod effects continue[/b] - bleed and stun chances, magazine size, fuel capacity, the lot.
-[*][b]Tooltips read correctly[/b], so the number you see is the number you get.
+
 [*][b]A gold quality band[/b], one step past legendary purple.
 [*][b]Crafting skills go to 60, 90 and 120[/b] instead of 50, 75 and 100, so the magazines you find after capping out have somewhere to go.
 [/list]
 
 [size=4][b]Balance[/b][/size]
 
-Tier 7 is not a new power level - it is the same size step tier 6 was.
+Tier 7 is not a new power level. It is one more step of the size the game was already using, and you can check that on any item.
 
-Every ladder gains one more rung of exactly the width vanilla was already using. An AK47 gains +40 durability going to tier 7 - the same +40 a tier that carried it from 200 at tier 1 to 400 at tier 6. A Raider outfit gains +0.6 resist, the same +0.6 a tier it had all along. The gap from 6 to 7 feels like the gap from 5 to 6, and nothing below tier 7 moves at all.
+An AK47 gains +40 durability at tier 7 - the same +40 it gained for every tier before, from 200 at tier 1 to 400 at tier 6. A Raider outfit gains +0.6 damage resistance, again the same as every tier before it. So going from 6 to 7 feels like going from 5 to 6, and nothing below tier 7 changes at all.
 
 What makes it endgame is the cost, not the numbers:
 
@@ -74,7 +74,9 @@ Not client side: the mod changes item definitions, and both ends read those from
 
 [size=4][b]Compatibility[/b][/size]
 
-Every config change is an XPath patch pinned to the exact vanilla value it expects, so if another mod already rewrote a weapon's ladder, the patch finds nothing and their numbers survive. Overhauls that rebalance weapons and armour wholesale, such as Darkness Falls or Undead Legacy, replace the ladders this mod extends - expect most of it not to apply there.
+If another mod has already changed an item's numbers, this mod leaves them as that mod set them rather than overwriting: each of its changes only applies where it finds exactly the value the unmodded game has, and is skipped otherwise.
+
+Overhauls that rebalance weapons and armour wholesale, such as Darkness Falls or Undead Legacy, change those numbers everywhere - expect most of this mod not to apply there.
 
 [size=4][b]My other mods[/b][/size]
 

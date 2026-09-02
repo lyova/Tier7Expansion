@@ -19,24 +19,25 @@ towards, not a new power level.
 
 ## What tier 7 gives
 
-- **Every tier-scaled number continues** - damage, block damage, durability, damage falloff,
-  physical and elemental resists, stamina, harvest counts, whatever that item scales.
+- **Every stat that grows with quality keeps growing** - damage, block damage, durability, damage
+  falloff, physical and elemental resistance, stamina, harvest counts.
 - **One more mod slot** than tier 6.
 - **Armour set bonuses continue.** A full tier 7 set gets the next step of its set bonus.
 - **Item mod effects continue** - bleed and stun chances, magazine size, fuel capacity, the lot.
-- **Tooltips read correctly**, so the number you see is the number you get.
+
 - **A gold quality band**, one step past legendary purple.
 - **Crafting skills go to 60, 90 and 120** instead of 50, 75 and 100, so the magazines you find
   after capping out have somewhere to go.
 
 ## Balance
 
-Tier 7 is not a new power level - it is the same size step tier 6 was.
+Tier 7 is not a new power level. It is one more step of the size the game was already using, and
+you can check that on any item.
 
-Every ladder gains one more rung of exactly the width vanilla was already using. An AK47 gains
-+40 durability going to tier 7, the same +40 a tier that carried it from 200 at tier 1 to 400 at
-tier 6. A Raider outfit gains +0.6 resist, the same +0.6 a tier it had all along. So the gap from
-6 to 7 feels like the gap from 5 to 6, and nothing below tier 7 moves at all.
+An AK47 gains +40 durability at tier 7 - the same +40 it gained for every tier before, from 200 at
+tier 1 to 400 at tier 6. A Raider outfit gains +0.6 damage resistance, again the same as every tier
+before it. So going from 6 to 7 feels like going from 5 to 6, and nothing below tier 7 changes at
+all.
 
 What makes it endgame is the cost, not the numbers:
 
@@ -79,13 +80,12 @@ the server and every client need the same version. Only tested in single player 
 
 ## Compatibility
 
-Every config change is an XPath patch pinned to the exact vanilla value it expects, so if another
-mod already rewrote a weapon's ladder, the patch finds nothing and their numbers survive. The
-quality cap is raised with a maximum rather than a fixed value, so load order cannot make this mod
-stomp one that wants tier 8.
+If another mod has already changed an item's numbers, this mod leaves them as that mod set them
+rather than overwriting: each of its changes only applies where it finds exactly the value the
+unmodded game has, and is skipped otherwise.
 
-Overhauls that rebalance weapons and armour wholesale - Darkness Falls, Undead Legacy - replace the
-ladders this mod extends, so expect most of it not to apply there.
+Overhauls that rebalance weapons and armour wholesale - Darkness Falls, Undead Legacy - change
+those numbers everywhere, so expect most of this mod not to apply there.
 
 ## Building
 
@@ -104,8 +104,8 @@ The config is generated from the vanilla XML rather than hand written, and verif
 ```
 
 `verify-t7-patches.ps1` replays every generated patch the way the game's own patcher would and
-reports any that match nothing - which is how a wrong predicate would otherwise fail: silently,
-with the tier simply never appearing.
+reports any that match nothing - which is how a mistake there would otherwise show up: not as an
+error, but as the tier simply never appearing in game.
 
 [NOTES.md](NOTES.md) explains why the patches look the way they do.
 
