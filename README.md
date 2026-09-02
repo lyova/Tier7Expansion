@@ -13,7 +13,7 @@ towards, not a new power level.
 |---|---|
 | Weapons | 43 - melee and ranged, junk sledge, turret and drone included |
 | Tools | 16 - axes, picks, shovels, wrenches, claw hammer, nailgun, chainsaw, auger |
-| Armour | 66 - sixteen sets of four, plus the Santa hat and the demo helmet |
+| Armour | 66 - every piece that has a quality |
 | Clothing | 12 - the layer under the armour |
 | Item mods | 35 - every mod that has a quality at all |
 
@@ -22,8 +22,7 @@ towards, not a new power level.
 - **Every tier-scaled number continues** - damage, block damage, durability, damage falloff,
   physical and elemental resists, stamina, harvest counts, whatever that item scales.
 - **One more mod slot** than tier 6.
-- **Armour set bonuses continue.** A full tier 7 set keeps its bonus and steps it up instead of
-  losing it for being past the last number vanilla wrote down.
+- **Armour set bonuses continue.** A full tier 7 set gets the next step of its set bonus.
 - **Item mod effects continue** - bleed and stun chances, magazine size, fuel capacity, the lot.
 - **Tooltips read correctly**, so the number you see is the number you get.
 - **A gold quality band**, one step past legendary purple.
@@ -61,9 +60,7 @@ vanilla does not charge a Legendary Part for them at tier 6 either.
 
 - 7 Days to Die **V 3.2.0**. Built and tested against b9.
 - Launch **without EasyAntiCheat** - the mod ships a DLL, and EAC blocks those.
-- **Crafting Max Quality** left on *Default* in Sandbox Options. An explicit 6 caps crafting at 6,
-  and tier 7 is then only reachable from loot.
-- No other mods needed. Harmony comes from the game's own `0_TFP_Harmony`.
+- No other mods needed.
 
 ## Installation
 
