@@ -1,5 +1,7 @@
 # Tier 7 Expansion
 
+**[Download on Nexus Mods](https://www.nexusmods.com/7daystodie/mods/12402)**
+
 A modlet for **7 Days to Die V 3.2.0** that adds a seventh quality tier to everything in the game
 that has a quality.
 
