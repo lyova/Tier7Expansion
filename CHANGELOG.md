@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.1
+
+- Updated for 7 Days to Die V 3.3. The 3.2 build is not compatible with 3.3, and this one does not
+  run on 3.2 - stay on 1.0.0 there.
+
 ## 1.0.0
 
 First release. Built and tested against 7 Days to Die V 3.2.0 (b9).

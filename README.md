@@ -2,7 +2,7 @@
 
 **[Download on Nexus Mods](https://www.nexusmods.com/7daystodie/mods/12402)**
 
-A modlet for **7 Days to Die V 3.2.0** that adds a seventh quality tier to everything in the game
+A modlet for **7 Days to Die V 3.3** that adds a seventh quality tier to everything in the game
 that has a quality.
 
 Once a crafting skill is capped, the game stops giving you anything: quality 6 is the ceiling and
@@ -61,7 +61,7 @@ vanilla does not charge a Legendary Part for them at tier 6 either.
 
 ## Requirements
 
-- 7 Days to Die **V 3.2.0**. Built and tested against b9.
+- 7 Days to Die **V 3.3**. Built and tested against b18.
 - Launch **without EasyAntiCheat** - the mod ships a DLL, and EAC blocks those.
 - No other mods needed.
 

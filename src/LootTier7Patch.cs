@@ -71,15 +71,17 @@ namespace Tier7Expansion
 
             itemValue.Quality = T7.Tier;
 
-            // The constructor sized Modifications from CalcModSlotCount() while the quality was
-            // still 6, so without this the extra slot tier 7 grants would have nowhere to go and a
-            // looted tier 7 would show one slot fewer than a crafted one. Grow only: the array can
-            // already hold the mods the constructor rolled into it.
+            // ctor sized the mod slots for quality 6; grow only, it may already hold rolled mods
             int slots = itemValue.CalcModSlotCount();
-            if (itemValue.Modifications == null) itemValue.Modifications = new ItemValue[slots];
-            else if (itemValue.Modifications.Length < slots) Array.Resize(ref itemValue.Modifications, slots);
+            ref ItemValue[] mods = ref modifications(itemValue);
+            if (mods == null) mods = new ItemValue[slots];
+            else if (mods.Length < slots) Array.Resize(ref mods, slots);
 
             return itemValue;
         }
+
+        // 3.3 made the array private and exposes no way to resize it
+        static readonly AccessTools.FieldRef<ItemValue, ItemValue[]> modifications =
+            AccessTools.FieldRefAccess<ItemValue, ItemValue[]>("modifications");
     }
 }
